@@ -1,0 +1,53 @@
+.container-fluid{
+    background-color: aqua;
+    color: red;
+    height: 700px;
+}
+
+@media only screen and (max-width: 570px) {
+    .container-fluid {
+      background-color: white;
+      color: black;
+
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .container-fluid {
+      background-color: red;
+      color: blue;
+      
+    }
+  }
+
+@media only screen and (max-width: 992px) {
+    .container-fluid {
+      background-color: orange;
+      color: black;
+      
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+    .container-fluid {
+      background-color: black;
+      color: yellow;
+      
+    }
+  }
+
+@media only screen and (max-width: 1400px) {
+    .container-fluid {
+      background-color: blue;
+      color: green;
+      
+    }
+  }
+
+.row, aside{
+    border: 2px solid orange;
+}
+
+a{
+    text-decoration: none;
+}
